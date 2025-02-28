@@ -10,4 +10,4 @@ RUN apt update && apt install -y curl unzip && \
 ENV NGROK_AUTHTOKEN=YOUR_AUTH_TOKEN
 
 # Start Ngrok (Change 8080 if needed)
-CMD ngrok http 80 --log=stdout
+CMD ngrok http 8080 --log=stdout
